@@ -1,0 +1,31 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar .navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--main-color, black);
+}
+
+.navbar a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+ul {
+  list-style-type: none;
+}
