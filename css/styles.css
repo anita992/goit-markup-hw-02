@@ -7,26 +7,36 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.navbar .navigation a {
+.navbar {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87em;
   letter-spacing: 0.02em;
   text-decoration: none;
 
   color: var(--main-color, black);
 }
+.navigation a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87em;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 
+  color: var(--main-color, black);
+}
 .navbar a {
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 0.87em;
   letter-spacing: 0.02em;
 
   color: #212121;
 }
-
+.navigation a:hover {
+  color: #2196f3;
+}
 ul {
   list-style-type: none;
 }
@@ -34,6 +44,7 @@ ul {
 button {
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-first {
@@ -47,21 +58,21 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 0.84em;
   letter-spacing: 0.03em;
 }
 
 .project-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 0.5em;
   letter-spacing: 0.06em;
 }
 
 .project-category {
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 0.53em;
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -83,14 +94,14 @@ button {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 0.84em;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 .address a {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.58em;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
@@ -99,7 +110,7 @@ button {
 .mail a {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.58em;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: underline;
@@ -108,7 +119,11 @@ button {
 .telephone a {
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 0.58em;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+a:hover,
+a:focus {
+  color: #2196f3;
 }
