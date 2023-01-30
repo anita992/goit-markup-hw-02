@@ -31,6 +31,26 @@ ul {
   list-style-type: none;
 }
 
+button {
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button-first {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.logo {
+  color: #2196f3;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
 .project-name {
   font-weight: 700;
   font-size: 18px;
@@ -43,6 +63,52 @@ ul {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-
   color: #757575;
+}
+
+.portfolio-nav {
+  color: #2196f3;
+}
+
+.footbar {
+  background: #2f303a;
+}
+
+.logo-word {
+  color: #ffffff;
+}
+
+.logo-font {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.address a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.mail a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: underline;
+}
+
+.telephone a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
