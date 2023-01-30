@@ -31,12 +31,9 @@ body {
   font-size: 14px;
   line-height: 0.87em;
   letter-spacing: 0.02em;
-
   color: #212121;
 }
-.navigation a:hover {
-  color: #2196f3;
-}
+
 ul {
   list-style-type: none;
 }
@@ -125,5 +122,5 @@ button {
 }
 a:hover,
 a:focus {
-  color: #2196f3;
+  color: blue;
 }
