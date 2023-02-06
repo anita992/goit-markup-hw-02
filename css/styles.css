@@ -167,6 +167,13 @@ button:focus {
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
+.profession {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.86;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
 
 .text {
   font-size: 14px;
