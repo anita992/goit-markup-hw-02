@@ -59,92 +59,11 @@ body {
 }
 
 .button-index {
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
-  border-radius: 4px;
-  border: 0;
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.53;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   background-color: var(--button-color);
-  color: var(--main-color);
-}
-
-.first-button {
-  width: 121px;
-  height: 38px;
-  left: 510px;
-  top: 174px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 0.62;
-  letter-spacing: 0.03em;
-  border: 0;
-  border-radius: 4px;
-  background-color: var(--button-color);
-  color: var(--main-color);
-}
-
-.second-button {
-  width: 93px;
-  height: 38px;
-  left: 639px;
-  top: 174px;
-  border-radius: 4px;
-  background-color: var(--button-color);
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-  font-size: 16px;
-  line-height: 0.62;
-  border: 0;
-}
-
-.third-button {
-  width: 114px;
-  height: 38px;
-  left: 740px;
-  top: 174px;
-  border-radius: 4px;
-  background-color: var(--button-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 0.62;
-  color: var(--main-color);
-  letter-spacing: 0.03em;
-  border: 0;
-}
-
-.forth-button {
-  width: 91px;
-  height: 38px;
-  left: 862px;
-  top: 174px;
-  background-color: var(--button-color);
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 0.62;
-  color: var(--main-color);
-  letter-spacing: 0.03em;
-  border: 0;
-}
-
-.fifth-button {
-  width: 121px;
-  height: 38px;
-  left: 961px;
-  top: 174px;
-  background-color: var(--button-color);
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 0.62;
-  letter-spacing: 0.03em;
-  border: 0;
   color: var(--main-color);
 }
 
@@ -159,18 +78,27 @@ button:focus {
   background-color: var(--accent-color);
   color: var(--third-color);
 }
+.buttons-category {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background-color: var(--button-color);
+  color: var(--main-color);
+  border: 0;
+}
 
 .text-title {
   font-weight: 700;
   font-size: 14px;
-  line-height: 0.88;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
 .text {
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
@@ -178,7 +106,7 @@ button:focus {
 .profession {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.86;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
@@ -186,7 +114,7 @@ button:focus {
 .team {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.86;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
@@ -194,14 +122,14 @@ button:focus {
 .workers-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--main-color);
 }
 
 .workers-profession {
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
@@ -216,20 +144,20 @@ button:focus {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .project-name {
   font-weight: 700;
   font-size: 18px;
-  line-height: 0.5;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .project-category {
   font-size: 16px;
-  line-height: 0.6;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
@@ -252,14 +180,14 @@ button:focus {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 0.84;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
 
 .address a {
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-color);
   text-decoration: none;
@@ -268,7 +196,7 @@ button:focus {
 
 .mail a {
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footbar-contact-color);
   text-decoration: underline;
@@ -276,7 +204,7 @@ button:focus {
 
 .telephone a {
   font-size: 14px;
-  line-height: 0.58;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--footbar-contact-color);
 }
