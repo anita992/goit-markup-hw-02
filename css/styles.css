@@ -30,7 +30,7 @@ body {
 .main-header {
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.73;
+  line-height: 1.36;
   color: var(--third-color);
 }
 .link-logo {
