@@ -21,10 +21,6 @@ body {
   color: var(--main-color, #212121);
 }
 .index-background {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
   background-color: var(--footbar-background-color);
 }
 .main-header {
@@ -34,7 +30,7 @@ body {
   color: var(--third-color);
 }
 .link-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.3;
